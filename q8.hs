@@ -1,0 +1,1 @@
+-- Construa uma função que retorne o MDC (Máximo Divisor Comum) de uma lista de números inteiros.
