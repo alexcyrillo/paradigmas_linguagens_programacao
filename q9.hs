@@ -3,7 +3,7 @@ module Main where
 
 multInt :: Int -> Int -> Int
 multInt m n
-      |(m <= n) = m * multInt (m + 1) n
+      |m <= n = m * multInt (m + 1) n
       |otherwise = 1
 
 
