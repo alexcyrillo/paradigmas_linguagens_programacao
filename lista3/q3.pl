@@ -1,4 +1,4 @@
-remover([X|T], X, T).
-remover([H|T], X, [H|Result]) :-
+emover([X|T], X, T).
+remover([H|T], X, [H|R]) :-
     H \= X,
-    remover(T, X, Result).
+    remover(T, X, R).
